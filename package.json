@@ -1,0 +1,17 @@
+{
+  "name": "novasave",
+  "version": "2.0.0",
+  "description": "NovaSave - Social Media Video Downloader by Rajeev Singh",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "pip3 install yt-dlp || pip install yt-dlp || true"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
